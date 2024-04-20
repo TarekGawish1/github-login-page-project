@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+.first-icon {
+    display: flex;
+    justify-content: center;
+    margin:32px 0 ;
+}
+.icon1{
+    width: 42px;
+
+}
 .container {
     width: 280px;
     height: 460px;
@@ -14,6 +23,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 8px;
+    border: 1.5px solid #e7e7e780;
 }
 .header {
     display: flex;
@@ -53,7 +64,7 @@
 }
 
 .divider {
-    border-bottom: 1px solid #888989;
+    border-bottom: 2px solid #88898922;
     margin: 10px;
     width: 230px;
 }
