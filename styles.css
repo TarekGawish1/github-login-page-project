@@ -68,3 +68,22 @@
     margin: 10px;
     width: 230px;
 }
+
+.form{
+    margin: 10px;
+    padding: 0 20px;
+}
+.form input{
+    width: 230px;
+    height: 32px;
+    border-radius: 7px;
+    border: 1.5px solid #e7e7e7;
+    margin-bottom: 14px;
+}
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    padding-top: 20px;
+    
+}
