@@ -72,6 +72,9 @@
 .form{
     margin: 10px;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .form input{
     width: 230px;
@@ -83,7 +86,47 @@
 label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    padding-top: 20px;
-    
+.bottom{
+    margin-top: 14px;
+    background-color: #2EA44F;
+    color: white;
+}
+
+.creat-account{
+    background-color: white;
+    border: 1.5px solid #e7e7e7;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.creat-account p{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: #0C6BD8;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.footer p{
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
